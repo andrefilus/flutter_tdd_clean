@@ -21,7 +21,8 @@ void main() {
   });
 
   test('Should call HttpClient with correct values', () async {
-    final params = AuthenticationParams(email: faker.internet.email(), password: faker.internet.password());
+    final params = AuthenticationParams(email: faker.internet.email(), 
+      password: faker.internet.password());
     //act
     await sut.auth(params);
 
