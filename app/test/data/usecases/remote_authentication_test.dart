@@ -11,10 +11,10 @@ import 'package:app/data/usecases/usecases.dart';
 class HttpClientSpy extends Mock implements HttpClient {}
 
 void main() {
-  late RemoteAuthentication sut;
-  late HttpClientSpy httpClient;
-  late String url;
-  late AuthenticationParams params;
+  RemoteAuthentication sut;
+  HttpClientSpy httpClient;
+  String url;
+  AuthenticationParams params;
 
   Map mockValidData() => {'accessToken': faker.guid.guid(),'name': faker.person.name()};
 
