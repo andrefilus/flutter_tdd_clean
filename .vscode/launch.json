@@ -11,8 +11,9 @@
       "program": "./app/test"
     },
     {
-      "name": "app",
+      "name": "FLutter",
       "cwd": "app",
+      "program": "lib/main/main.dart",
       "request": "launch",
       "type": "dart"
     },
