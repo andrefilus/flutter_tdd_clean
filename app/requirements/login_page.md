@@ -17,4 +17,4 @@
 14. Exibir mensagem de erro caso o login falhe
 15. Gravar o token do usuário no cache para mantê-lo conectado
 16. Redirecionar o usuário para tela de lista de enquetes
-17. Esconder loading no fim da ação de login
+17.✅ Esconder loading no fim da ação de login
