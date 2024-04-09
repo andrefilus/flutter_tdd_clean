@@ -8,4 +8,5 @@ abstract class LoginPresenter {
   void validateEmail(String email);
   void validatePassword(String senha);
   void auth();
+  void dispose();
 }
