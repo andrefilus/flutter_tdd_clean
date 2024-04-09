@@ -7,6 +7,6 @@ abstract class LoginPresenter {
 
   void validateEmail(String email);
   void validatePassword(String senha);
-  void auth();
+  Future<void> auth();
   void dispose();
 }
