@@ -18,4 +18,4 @@
 15. Gravar o token do usuário no cache para mantê-lo conectado
 16. Redirecionar o usuário para tela de lista de enquetes
 17.✅ Esconder loading no fim da ação de login
-18. Fechar streams quando a página for encerrada
+18.✅ Fechar streams quando a página for encerrada
